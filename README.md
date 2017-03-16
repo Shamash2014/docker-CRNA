@@ -1,2 +1,7 @@
 # docker-CRNA
-Easy way of creating your react native app with create react native app
+
+Just run:
+
+`
+  docker run -v $(pwd):/app warpshamash/create-react-native-app create-react-native-app name-of-your-app
+`
